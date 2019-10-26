@@ -1,0 +1,47 @@
+body{
+    background-color: powderblue;
+    text-align: center;
+}
+
+img{
+    max-width: 250px;
+    border: 9px plum solid;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 60px;
+     padding: 15px 0 15px 10px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Righteous', cursive;
+}
+
+.display-none {
+    display: none;
+}
+
+button:hover {
+    background-color: plum;
+    color: whitesmoke;
+}
+
+button {
+    padding: 0px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 11px;
+    border: 2px solid black;
+}

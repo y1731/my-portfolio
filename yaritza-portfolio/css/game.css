@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://cdn140.picsart.com/263118911025202.jpg?r1024x1024);
+    background-size: 1275px;
+}
+
+h2 {
+    margin: 0 auto;
+    font-size: 35px;
+    margin: 10px
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+    height: 432px;
+    width: 432px;
+}
+
+.square {
+    border: 2px solid rgba(0, 0, 0, 0.75);
+    height: 140px;
+    width: 140px;
+    font-size: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: powderblue;
+    color:  rgb(213, 178, 213);;
+}
+#reset-button {
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid black;
+    height: 55px;
+    width: 120px;
+    margin: 10px;
+    background-color: rgb(213, 178, 213);
+    color: powderblue;
+    
+}
